@@ -1,143 +1,98 @@
-# Grupo3_complejo-industrial-nexo_alan_garcia.
-# 🏥 SaludEnLínea
+# Grupo3_complejo-industrial-nexo_alan_garcia. 
+# 🏭 COMPLEJO INDUSTRIAL NEXO
 
-> Aplicación de gestión médica para reservar citas en línea, consultar el historial clínico digital y recibir recetas médicas electrónicas.
+> Juego educativo creado en **Roblox Studio** para reforzar conocimientos de **Cálculo**, **Algoritmos** e **Introducción a la Ingeniería** mediante actividades grupales dentro de una fábrica interactiva.
 
-**Trabajo Práctico Experimental 4 (TPE 4)** · Introducción a la Ingeniería del Software
-
----
-
-## 📋 Tabla de contenidos
-
-- [Descripción del proyecto](#-descripción-del-proyecto)
-- [Problema y objetivo](#-problema-y-objetivo)
-- [Usuarios del sistema](#-usuarios-del-sistema)
-- [Requisitos funcionales](#-requisitos-funcionales-rf)
-- [Requisitos no funcionales](#-requisitos-no-funcionales-rnf)
-- [Casos de prueba](#-casos-de-prueba)
-- [Criterios de aceptación](#-criterios-de-aceptación)
-- [Equipo de trabajo](#-equipo-de-trabajo)
-- [Información académica](#-información-académica)
+![Roblox Studio](https://img.shields.io/badge/Hecho%20con-Roblox%20Studio-00A2FF?logo=roblox&logoColor=white)
+![Lua](https://img.shields.io/badge/Lenguaje-Luau-2C2D72?logo=lua&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
+![UNEMI](https://img.shields.io/badge/UNEMI-Ingenier%C3%ADa%20de%20Software-darkred)
 
 ---
 
-## 📖 Descripción del proyecto
+## 📖 Descripción
 
-**SaludEnLínea** es una aplicación de gestión médica que permite a los pacientes:
+**COMPLEJO INDUSTRIAL NEXO** es un juego con fines académicos en el que los jugadores recorren una fábrica dividida en **zonas por colores**. En cada zona encuentran ejercicios de cálculo, obstáculos y situaciones de **seguridad industrial** que deben resolver en **grupos de máximo 5 personas**.
 
-- 📅 Reservar citas médicas en línea.
-- 📂 Consultar su historial clínico digital.
-- 💊 Recibir recetas médicas electrónicas.
-
-La necesidad principal del proyecto es **facilitar la atención médica**, **reducir la congestión en los centros de salud** y permitir una **gestión organizada de la información de los pacientes**, garantizando la privacidad, seguridad y confidencialidad de sus datos personales.
-
----
+Está pensado para estudiantes de la **Universidad Estatal de Milagro (UNEMI)** y para cualquier persona que quiera practicar y reforzar sus conocimientos de una forma dinámica y colaborativa.
 
 ## 🎯 Problema y objetivo
 
-| Campo | Detalle |
+| | |
 |---|---|
-| **Problema o necesidad** | Dificultad para gestionar citas médicas y organizar la información de los pacientes. |
-| **Objetivo del sistema** | Facilitar la gestión de citas, historiales clínicos y recetas médicas mediante una plataforma digital segura. |
+| **Problema** | Faltan herramientas dinámicas e interactivas que permitan a los estudiantes reforzar sus conocimientos de cálculo, algoritmos e introducción a la ingeniería de forma práctica, entretenida y colaborativa. |
+| **Objetivo** | Incentivar a los estudiantes de la UNEMI, y a cualquier persona interesada, a aprender y reforzar conocimientos mediante actividades grupales. |
+| **Usuarios** | Estudiantes de la UNEMI y personas interesadas en cálculo, algoritmos e introducción a la ingeniería. |
 
----
+## ✨ Características principales
 
-## 👥 Usuarios del sistema
-
-| Usuario | Funciones |
-|---|---|
-| 🧑‍🦱 **Pacientes** | Registrarse, iniciar sesión, reservar citas médicas y consultar su información médica. |
-| 🩺 **Médicos** | Consultar historiales clínicos, registrar consultas y generar recetas médicas electrónicas. |
-| 🛠️ **Administradores** | Gestionar los usuarios y supervisar el funcionamiento de la plataforma. |
-
----
+- 🟥🟩🟦 **Zonas por colores** con ejercicios de cálculo y obstáculos.
+- 🧯 **Simulación industrial:** apagar incendios, auxiliar a personas heridas y aplicar medidas de prevención de riesgos.
+- 👥 **Juego en grupo:** hasta 5 jugadores por equipo.
+- 🎮 **Controles sencillos** e indicaciones claras para moverse por las instalaciones.
 
 ## ✅ Requisitos funcionales (RF)
 
-| Código | Requisito funcional |
-|:---:|---|
-| **RF01** | El sistema debe permitir a los pacientes registrarse e iniciar sesión mediante sus credenciales. |
-| **RF02** | El sistema debe permitir a los pacientes reservar citas médicas en línea, seleccionando fecha y horario disponibles. |
-| **RF03** | El sistema debe permitir a los médicos registrar y consultar el historial clínico digital de los pacientes. |
-
----
+| ID | Requisito | Descripción |
+|----|-----------|-------------|
+| RF1 | Actividades por zonas | Los jugadores recorren distintas áreas de la fábrica, identificadas por colores, con ejercicios de cálculo y obstáculos. |
+| RF2 | Simulación de situaciones industriales | Actividades de seguridad industrial: apagar incendios, auxiliar heridos y aplicar medidas de prevención. |
+| RF3 | Participación grupal | Las actividades se realizan en grupo, con un máximo de 5 integrantes. |
 
 ## ⚙️ Requisitos no funcionales (RNF)
 
-Los requisitos no funcionales establecen las condiciones de calidad y funcionamiento del sistema.
-
-| Código | Requisito no funcional |
-|:---:|---|
-| **RNF01** | **Seguridad:** el sistema debe garantizar la seguridad y confidencialidad de la información médica, evitando que personas no autorizadas accedan a los datos de los pacientes. |
-| **RNF02** | **Usabilidad:** el sistema debe ofrecer una interfaz fácil de utilizar, permitiendo que pacientes y personal médico realicen sus actividades de manera sencilla. |
-
----
+| ID | Requisito | Descripción |
+|----|-----------|-------------|
+| RNF1 | Usabilidad | Controles e indicaciones sencillas para navegar y realizar las actividades. |
+| RNF2 | Rendimiento | Funcionamiento fluido con hasta 5 jugadores simultáneos por grupo. |
 
 ## 🧪 Casos de prueba
 
-### CP1 — Registro e inicio de sesión (RF01)
+| RF | Caso de prueba | Procedimiento | Resultado esperado | Criterio de satisfacción |
+|----|----------------|---------------|--------------------|--------------------------|
+| RF1 | Recorrer las zonas por colores | Entrar a cada zona, localizar los ejercicios y completar los obstáculos. | Cada zona muestra correctamente sus ejercicios y obstáculos. | El jugador entra a cada zona, ve sus actividades y completa los obstáculos sin errores. |
+| RF2 | Probar las actividades de seguridad industrial | Apagar un incendio, auxiliar a un herido y seguir las medidas de seguridad. | Las actividades permiten realizar las acciones para completar cada desafío. | El jugador realiza las acciones solicitadas y completa cada actividad. |
+| RF3 | Verificar la participación grupal | Entrar con un grupo de 5 jugadores y realizar las actividades. | Los 5 jugadores participan sin inconvenientes. | Los 5 jugadores pueden ingresar, interactuar y participar sin problemas. |
 
-| Campo | Descripción |
-|---|---|
-| **Objetivo** | Comprobar que los pacientes puedan ingresar al sistema utilizando sus credenciales. |
-| **Procedimiento** | 1. Registrar un paciente con sus datos personales, usuario y contraseña.<br>2. Iniciar sesión con las credenciales registradas. |
-| **Resultado esperado** | El sistema permite el registro y el acceso correcto del paciente. |
-| **Criterio de aceptación** | La prueba es satisfactoria si el paciente puede registrarse e iniciar sesión sin errores. |
+## 🚀 Cómo jugar / probar el proyecto
 
-### CP2 — Reserva de citas médicas (RF02)
+1. Instala [Roblox Studio](https://create.roblox.com/).
+2. Clona este repositorio:
+   ```bash
+   git clone https://github.com/USUARIO/complejo-industrial-nexo.git
+   ```
+3. Abre el archivo del juego (`.rbxl`) en Roblox Studio.
+4. Pulsa **Play** (o **Test → Start** con varios jugadores para probar el modo grupal).
 
-| Campo | Descripción |
-|---|---|
-| **Objetivo** | Verificar que los pacientes puedan reservar citas médicas en línea. |
-| **Procedimiento** | 1. Iniciar sesión.<br>2. Seleccionar una fecha y un horario disponible.<br>3. Confirmar la reserva. |
-| **Resultado esperado** | El sistema registra la cita y muestra un mensaje de confirmación al paciente. |
-| **Criterio de aceptación** | La prueba es satisfactoria si la cita queda registrada correctamente y el horario seleccionado deja de aparecer como disponible. |
+> 🔗 Enlace al juego publicado en Roblox: _próximamente_
 
-### CP3 — Historial clínico digital (RF03)
-
-| Campo | Descripción |
-|---|---|
-| **Objetivo** | Comprobar que los médicos puedan registrar y consultar la información clínica de los pacientes. |
-| **Procedimiento** | 1. Iniciar sesión como médico.<br>2. Seleccionar un paciente.<br>3. Registrar una consulta médica.<br>4. Consultar su historial clínico. |
-| **Resultado esperado** | El sistema guarda la información de la consulta y la muestra correctamente en el historial del paciente. |
-| **Criterio de aceptación** | La prueba es satisfactoria si los datos registrados se almacenan y pueden consultarse sin errores. |
-
----
-
-## 📏 Criterios de aceptación
-
-Una prueba se considera **satisfactoria** cuando el sistema realiza la acción solicitada, muestra los resultados esperados y no presenta errores durante su ejecución. Para evaluarlo se usan estos criterios:
-
-- ✔️ **Correcto funcionamiento:** la funcionalidad ejecuta la acción solicitada sin errores.
-- ✔️ **Exactitud de la información:** los datos ingresados se guardan y muestran correctamente.
-- ✔️ **Cumplimiento del requisito:** el sistema realiza lo establecido en cada requisito funcional.
-- ✔️ **Seguridad de la información:** los datos médicos solamente pueden ser consultados por usuarios autorizados.
-
----
-
-## 👨‍💻 Equipo de trabajo
-
-**Grupo 3** · 8 integrantes
+## 👨‍💻 Autores — Grupo 3
 
 - Angel Alexis Arreaga Ortega
 - Joselyne Nicol Chiriguaya Romero
-- Julia Aracelli Chavez Vasquez
+- Julia Aracelli Chávez Vásquez
 - Raquel Miroslaba Cabrera Bajaña
-- Alan Josue Garcia Zambrano
+- Alan Josué García Zambrano
 - Daniel Francisco Chiriguaya
 - Brianna Amelia Chulde
 - Erick Joan Rugel Arteaga
 
----
+## 🏫 Información académica
 
-## 🎓 Información académica
-
-| Campo | Detalle |
+| | |
 |---|---|
-| **Facultad** | Facultad de Ciencias e Ingeniería |
+| **Universidad** | Universidad Estatal de Milagro (UNEMI) |
+| **Facultad** | Ciencias e Ingeniería |
 | **Carrera** | Ingeniería de Software |
 | **Asignatura** | Introducción a la Ingeniería del Software |
 | **Docente** | Jorge Dumar Guevara Serrano |
-| **Fecha de entrega** | 4 de octubre de 2026 |
+| **Trabajo** | Trabajo Práctico Experimental 4 (TPE 4) |
 | **Periodo** | Agosto 2026 – Diciembre 2026 |
-| **Lugar** | Daule – Ecuador |
+| **Ubicación** | Daule – Ecuador |
+
+---
+
+<p align="center">Hecho con ❤️ en Roblox Studio · UNEMI 2026</p>
+
+
+
